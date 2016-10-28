@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ponto-atendimento nome-logico="MG288911001">
+    <circuitos>
+        <circuito id="22234" designacao="R0-MG288911001">
+            <tipo-rede>0</tipo-rede>
+            <situacao id="0">Inativo</situacao>
+            <operadora sigla="CXA">CAIXA</operadora>
+            <ips simultaneo="N">
+                <primario>10.33.0.114</primario>
+                <secundario></secundario>
+            </ips>
+        </circuito>
+        <circuito id="13853" designacao="MTR-CEF-216">
+            <tipo-rede>4</tipo-rede>
+            <situacao id="0">Inativo</situacao>
+            <operadora sigla="CEM">CEMIG TELECOMUNICAÇÕES S.A</operadora>
+            <velociade>4 Mbps</velociade>
+            <ips simultaneo="S">
+                <primario>10.33.224.222</primario>
+                <secundario>10.33.224.226</secundario>
+            </ips>
+        </circuito>
+    </circuitos>
+</ponto-atendimento>
