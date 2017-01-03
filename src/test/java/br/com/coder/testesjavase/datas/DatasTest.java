@@ -7,11 +7,13 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
+import java.util.Locale;
 
 import org.junit.Test;
 
 import junit.framework.TestCase;
 import org.joda.time.DateTime;
+import org.joda.time.LocalDateTime;
 
 public class DatasTest extends TestCase {
 
@@ -139,5 +141,11 @@ public class DatasTest extends TestCase {
         String PATTERN = "dd/MM/yyyy HH:mm:sss";
         System.out.println(new DateTime().toString(PATTERN));
         System.out.println(new DateTime().minusMinutes(10).toString(PATTERN));
+    }
+
+    @Test
+    public void testFormao(){
+        SimpleDateFormat df = new SimpleDateFormat("MMMM/yyyy", new Locale("pt", "BR"));
+        System.out.println(df.format(new Date()));
     }
 }
