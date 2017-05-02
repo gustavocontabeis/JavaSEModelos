@@ -13,7 +13,7 @@ import org.junit.Test;
  *
  * @author gustavo
  */
-public class Java8Test {
+public class StreamsTest {
 	
 	private List<Pessoa> pessoas;
 	private List<Integer> numeros;
