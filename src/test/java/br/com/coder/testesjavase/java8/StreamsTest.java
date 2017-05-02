@@ -1,4 +1,4 @@
-package br.com.coder.testesjavase.java8.ordenalist;
+package br.com.coder.testesjavase.java8;
 
 import java.util.Arrays;
 import java.util.Comparator;
