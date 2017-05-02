@@ -1,4 +1,4 @@
-package br.com.coder.testesjavase.list.ordenar;
+package br.com.coder.testesjavase.colecoes.list.ordenar;
 
 import java.util.ArrayList;
 import java.util.Calendar;
