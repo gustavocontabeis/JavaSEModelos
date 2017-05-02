@@ -33,12 +33,6 @@ public class LambdaTest {
 	}
 	
 	@Test
-	public void testForEach(){
-		List<Integer> list = Arrays.asList(9,5,1,8,4,6,2,7,3);
-		list.forEach(obj->System.out.println(obj+"!")); 
-	}
-	
-	@Test
 	public void testlength(){
 		
 		List<String> nomes = Arrays.asList("Lautenir", "Romilda", "Giana");
